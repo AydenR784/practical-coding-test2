@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppressor MKII | Item Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <h1 class="page-title">Experimental Hover Bike Showcase</h1>
+        <p class="page-intro">A quick look at the new MKII model from Humane Labs.</p>
+
+        <article class="product-card" id="productCard">
+            <img
+                class="product-image"
+                src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85"
+                alt="Oppressor MKII product image"
+            >
+            <div class="card-content">
+                <h2>Oppressor MKII</h2>
+                <p class="product-description">A compact flying bike built for getting around Los Santos in seconds. Any injuries sustained during operation are the sole responsibility of the rider.</p>
+
+                <div class="button-row">
+                    <button id="revealButton" type="button" aria-expanded="false" aria-controls="productDetails">Reveal Details</button>
+                    <button id="themeButton" type="button" aria-pressed="false">Change Theme</button>
+                </div>
+
+                <section id="productDetails" class="details" hidden>
+                    <h3>Quick Details</h3>
+                    <p>This futuristic hoverbike can fly over roads and water. It is the fastest model in its class and has room for one rider.</p>
+                    <ul>
+                        <li>Type: Personal flying vehicle</li>
+                        <li>Seats: 1</li>
+                        <li>Best for: Instant travel across the state of San Andreas</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
